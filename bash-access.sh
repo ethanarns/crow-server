@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -ti crowbox:latest bash
+docker run -v /Users/ethanarns/GitHub/crow-server:/usr/src/crow-server -ti crowbox:latest bash
